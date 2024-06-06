@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port that your Vite app listens on (default is 3000)
-EXPOSE 4173
+EXPOSE 6999
 
 # Command to run the production server
-CMD ["npm", "run", "preview"]
+CMD ["npm", "run", "dev"]
